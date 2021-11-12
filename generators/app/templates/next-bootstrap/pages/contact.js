@@ -1,9 +1,10 @@
 import Layout from '@/components/Layout'
+import ContactFormCard from '@/components/ContactFormCard'
 
 const Contact = () => {
   return (
     <Layout>
-      Contact
+      <ContactFormCard />
     </Layout>
   )
 }

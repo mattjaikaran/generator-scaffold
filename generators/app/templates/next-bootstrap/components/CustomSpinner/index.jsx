@@ -1,10 +1,10 @@
-import { Spinner } from 'react-bootstrap'
+import { Container, Spinner } from 'react-bootstrap'
 
 const CustomSpinner = () => {
   return (
-    <div>
+    <Container>
       <Spinner />
-    </div>
+    </Container>
   )
 }
 
