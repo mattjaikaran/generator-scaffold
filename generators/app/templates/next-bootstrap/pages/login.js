@@ -1,14 +1,12 @@
-import Layout from '@/components/Layout'
-import LoginCard from '@/components/LoginCard'
+import MainLayout from '@/views/layouts/MainLayout'
+import LoginCard from '@/components/auth/LoginCard'
 
 const Login = () => {
-  
   return (
-    <Layout>
+    <MainLayout>
       <LoginCard />
-    </Layout>
+    </MainLayout>
   )
 }
-
 
 export default Login

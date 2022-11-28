@@ -1,13 +1,12 @@
-import Layout from '@/components/Layout'
-import ContactFormCard from '@/components/ContactFormCard'
+import MainLayout from '@/views/layouts/MainLayout'
+import ContactFormCard from '@/components/utils/ContactFormCard'
 
 const Contact = () => {
   return (
-    <Layout>
+    <MainLayout>
       <ContactFormCard />
-    </Layout>
+    </MainLayout>
   )
 }
-
 
 export default Contact

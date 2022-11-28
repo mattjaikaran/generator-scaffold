@@ -23,7 +23,6 @@ module.exports = class extends Generator {
         choices: [
           'NextJS/Bootstrap - Front End',
           // 'NextJS/Tailwind - Front End',
-          'React - Front End',
           'Node/Express - API',
           // 'E-Commmerce NextJS Shopify',
           // 'E-Commmerce NextJS BigCommerce',
@@ -46,10 +45,6 @@ module.exports = class extends Generator {
       this._writingNextBootstrapTemplate()
     } else if (this.answer.templateType === 'NextJS/Tailwind - Front End') {
       this._writingNextTailwindTemplate()
-    } else if (this.answer.templateType === 'React - Front End') {
-      this._writingReactTemplate()
-    } else if (this.answer.templateType === 'React - Front End') {
-    this._writingReactTemplate()
     } else {
       this._writingNextBootstrapTemplate()
       this._writingApiTemplate()
@@ -80,24 +75,18 @@ module.exports = class extends Generator {
     )
   }
 
-  _writingReactTemplate() {
-    this.fs.copy(
-      this.templatePath('react-starter'),
-      this.destinationPath('react-starter')
-    )
-    this.fs.copyTpl(
-      this.templatePath('react-starter/public/index.html'),
-      this.destinationPath('react-starter/public/index.html'),
-      { title: this.answers.name }
-    )
-  }
-
   _writingStrapiTemplate() {
-    this.fs.copy(this.templatePath('strapi-starter'), this.destinationPath('strapi-starter'))
+    this.fs.copy(
+      this.templatePath('strapi-starter'),
+      this.destinationPath('strapi-starter')
+    )
   }
 
   _writingApiTemplate() {
-    this.fs.copy(this.templatePath('node-express'), this.destinationPath('node-express'))
+    this.fs.copy(
+      this.templatePath('node-express'),
+      this.destinationPath('node-express')
+    )
   }
 
   end() {

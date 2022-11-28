@@ -1,13 +1,12 @@
-import Layout from '@/components/Layout'
-import RegisterCard from '@/components/RegisterCard'
+import MainLayout from '@/views/layouts/MainLayout'
+import RegisterCard from '@/components/auth/RegisterCard'
 
 const Register = () => {
   return (
-    <Layout>
+    <MainLayout>
       <RegisterCard />
-    </Layout>
+    </MainLayout>
   )
 }
-
 
 export default Register

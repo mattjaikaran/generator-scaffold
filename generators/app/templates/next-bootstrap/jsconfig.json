@@ -8,17 +8,17 @@
       "@/styles/*": [
         "styles/*"
       ],
-      "@/copy/*": [
-        "copy/*"
-      ],
-      "@/hooks/*": [
-        "hooks/*"
+      "@/config/*": [
+        "config/*"
       ],
       "@/assets/*": [
         "assets/*"
       ],
       "@/lib/*": [
         "lib/*"
+      ],
+      "@/views/*": [
+        "views/*"
       ]
     }
   }

@@ -1,12 +1,7 @@
-import Layout from '@/components/Layout'
+import MainLayout from '@/views/layouts/MainLayout'
 
 const About = () => {
-  return (
-    <Layout>
-      About
-    </Layout>
-  )
+  return <MainLayout>About</MainLayout>
 }
-
 
 export default About
