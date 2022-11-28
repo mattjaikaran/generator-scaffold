@@ -6,7 +6,7 @@ Configuration takes too long. Speeding up the process.
 
 - Quick start for JS applications
 - UI Components refactored for reusability.
-- React Hook Form for UI forms. 
+- React Hook Form for UI forms.
 
 ## Included Generators
 
@@ -14,7 +14,6 @@ Configuration takes too long. Speeding up the process.
   - NextJS/React Bootstrap
   - NextJS/Tailwind
   - NextJS/React Bootstrap w/ TypeScript
-  - React via Create React App 
 - Back End
   - NodeJS/Express
   - NestJS REST
@@ -22,10 +21,9 @@ Configuration takes too long. Speeding up the process.
 - Fullstack
   - React/NodeJS
 
-
 ## Upcoming Features
 
-- Testing 
+- Testing
   - Jest
   - React Testing Library
   - Cypress
@@ -45,13 +43,13 @@ Configuration takes too long. Speeding up the process.
 - Deployment
   - CI/CD
 
-
 ## Upcoming Generators
+
 - Front End
   - E-Commerce NextJS Shopify
   - E-Commerce NextJS BigCommerce
   - E-Commerce NextJS vanilla with CMS
   - NextJS w/ Headless WordPress
 - APIs
-  - Users/Auth 
+  - Users/Auth
   - Stripe Integration
